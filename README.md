@@ -1,7 +1,7 @@
 ![logo](src/assets/icon.png)
 # WeatherWise - Weather App
 
-WeatherWise is a simple and intuitive weather application that allows users to check current weather conditions. It provides real-time data for any location, including temperature, humidity, wind speed, and more. The app fetches weather data from the OpenWeather API and displays it in a user-friendly interface.
+WeatherWise is a simple and intuitive weather application that allows users to check current weather conditions. It provides real-time data for any location, including temperature, humidity, wind speed, and more. The app fetches weather data from the OpenWeather API and displays it in a user-friendly interface. Still fixing things such as icons from the API and stuff, but all of the main components are implemented.
 
 ## Features
 
