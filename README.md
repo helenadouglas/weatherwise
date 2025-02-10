@@ -16,3 +16,6 @@ WeatherWise is a simple and intuitive weather application that allows users to c
 - **OpenWeather API**: Provides weather data.
 - **CSS**: For styling the application.
 - **GitHub Pages**: Deployed the app for public access.
+
+## How to run
+https://helenadouglas.github.io/weatherwise/
