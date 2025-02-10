@@ -66,5 +66,42 @@
     width: 26px;
     margin-top: 10px;
     filter: invert(1) brightness(100%) grayscale(100%);
+}
 
+/* Fix for smaller devices */
+@media (max-width: 600px) {
+    .weather {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .temperature {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Adjusting icons */
+    .weather-icon img {
+        width: 100px; /* Smaller icon size for mobile */
+    }
+
+    /* Stacking the information vertically */
+    .weather-data {
+        display: flex;
+        flex-direction: column;  /* Stack items vertically */
+        align-items: center;     /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        text-align: center;      /* Center text */
+        gap: 10px;               /* Add space between the items */
+    }
+
+    .weather-data .col {
+        font-size: 16px;  /* Adjust font size for smaller screens */
+        color: #fff;      /* Optional: Ensure text is white */
+    }
 }
